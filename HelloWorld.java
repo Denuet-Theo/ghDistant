@@ -1,4 +1,4 @@
-//classe helloworld coucou
+//classe helloworld 
 Algo HelloWorld {
  fonction principale {
 // Création de la fenetre
