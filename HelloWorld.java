@@ -1,4 +1,4 @@
-//classe helloworld tchuss
+//classe helloworld tchuss tchuss
 Algo HelloWorld {
  fonction principale {
 // Création de la fenetre
