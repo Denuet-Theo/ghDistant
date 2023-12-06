@@ -1,0 +1,17 @@
+#!/bin/bash
+INFO_PATH=suivi
+INFO_FILE=commitInfo.txt
+
+read -p "Commit vérifié le $(date '+%Y-%m-%d %H:%M:%S') (y/[n]) ?" yn < /dev/tty
+yn=${yn:n}
+
+case $yn in
+ [Yy]* ) 
+ echo "commit vérifié le $(date '+%Y-%m-%d %H:%M:%S')" > $INFO_PATH/$INFO_FILE
+ git add $INFO_PATH/$INFO_FILE
+ exit 0;;
+ [Nn]* ) 
+ exit 0;;
+esac
+
+exit 0
