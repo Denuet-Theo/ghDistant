@@ -1,3 +1,4 @@
+// c20 modif
 Algo HelloWorld {
  fonction principale {
 // Création de la fenetre
